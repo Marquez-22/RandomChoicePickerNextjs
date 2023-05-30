@@ -15,9 +15,9 @@ export const TextTextArea = ({ type = "TextTextArea1" }: TextTextAreaProps) => {
     return (<>
         <div className={`TextTextArea ${type}`}>
             <Text type="text1">
-                Enter all of the choices divided by a comma (',').
+                Enter all of the choices divided by a comma {'","'}.
                 <br />
-                Press enter when you're done
+                Press enter when you{"'"}re done
             </Text>
             <TextArea
                 setTexto={setTexto}
